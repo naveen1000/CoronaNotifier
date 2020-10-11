@@ -1,7 +1,7 @@
 # CoronaNotifier
 
 This Project is used to notify the Corona data of Andhra Pradesh in Telegram using Python Script deployed in Heroku Cloud Platform or AWS Lamda Function with Trigger.
-
+```
 --------------Corona Update--------------
 Andhra Pradesh
 Today Confirmed:0
@@ -42,3 +42,10 @@ Date : 10 October
 Totalconfirmed : 7051520
 Totaldead : 107785
 Totalrecovered : 6074835
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
