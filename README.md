@@ -1,6 +1,8 @@
 # CoronaNotifier
 
 This Project is used to notify the Corona data of Andhra Pradesh in Telegram using Python Script deployed in Heroku Cloud Platform or AWS Lamda Function with Trigger.
+</br>
+Message which we receive on telegram is as below:</br>
 ```
 --------------Corona Update--------------
 Andhra Pradesh
