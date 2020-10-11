@@ -42,10 +42,5 @@ Date : 10 October
 Totalconfirmed : 7051520
 Totaldead : 107785
 Totalrecovered : 6074835
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+
 ```
