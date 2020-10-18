@@ -46,3 +46,5 @@ Totaldead : 107785
 Totalrecovered : 6074835
 
 ```
+## To Start In Heroku
+`heroku ps:scale clock=1`
