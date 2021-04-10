@@ -46,7 +46,7 @@ def cronjob():
 
     districtData = data['Andhra Pradesh']['districtData']
     for district in districtData:
-        msg =msg + str(districtData[district]['delta']['confirmed']).center(3) + str(districtData[district]['confirmed']).center(6) + ' ' + district +'\n'
+        msg =msg + str(districtData[district]['delta']['confirmed']).center(5)+ ' - ' + str(districtData[district]['confirmed']).center(6) + ' ' + district +'\n'
 
     msg=msg +'\n\n'
     msg=msg +'--------------***Yestrday Report***--------------\n\n' 	
@@ -55,3 +55,5 @@ def cronjob():
             msg = msg + i.capitalize().replace('deceased',"dead").replace('Daily',"Yesterday") + ' : ' + daily_report[i] + '\n'	
     print(msg)
     notify(msg)	
+
+cronjob()
